@@ -1,0 +1,45 @@
+{
+    "path": "00028180_bojonegoro_inews",
+    "selector": {
+        "date": {
+            "tag": ".timeAndShare .createdAt",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ""
+        ],
+        "title": ".breadcrumb",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".authorList"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".headerImg > img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".bodyArticleWrapper p"
+        ],
+        "categories": [
+            ""
+        ],
+        "exceptions": [
+            ".widgetListArticle col",
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [],
+            "selectors": []
+        }
+    }
+}

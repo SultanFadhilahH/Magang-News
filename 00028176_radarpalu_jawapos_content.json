@@ -1,0 +1,48 @@
+{
+    "path": "00028176_radarpalu_jawapos",
+    "selector": {
+        "date": {
+            "tag": ".flex.min-w-0.flex-col > time",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ""
+        ],
+        "title": "h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".flex.flex-row.flex-wrap.items-center.gap-x-1.text-sm.font-semibold.text-primary a"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".konten > img",
+                "attr": "data-src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".ui-text p"
+        ],
+        "categories": [
+            ""
+        ],
+        "exceptions": [
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [
+                "Baca Juga: "
+            ],
+            "selectors": [
+                ".readmore"
+            ]
+        }
+    }
+}

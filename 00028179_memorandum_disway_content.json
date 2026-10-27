@@ -1,0 +1,49 @@
+{
+    "path": "00028179_memorandum_disway",
+    "selector": {
+        "date": {
+            "tag": ".text-grey .date",
+            "attr": "",
+            "format": "dd-mm-yyyy"
+        },
+        "tags": [
+            ""
+        ],
+        "title": "h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                "strong"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".bottom-15 > img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".post.text-black-1 p"
+        ],
+        "categories": [
+            ""
+        ],
+        "exceptions": [
+            ".max-w-6xl.mx-auto",
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [
+                "BACA JUGA:"
+            ],
+            "selectors": [
+                "strong"
+            ]
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "url": "https://radarpalu.jawapos.com/",
+    "path": "00028176_radarpalu_jawapos",
+    "selector": {
+        "url": {
+            "tag": "h3 > a",
+            "prefix": "https://radarpalu.jawapos.com/"
+        },
+        "meta": {
+            "img": {
+                "tag": ".ui-r-w.ui-r-minw.ui-r-h.ui-r-fs.overflow-hidden.rounded-md > a > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".ui-text.ui-r-fz.ui-r-lh.ui-r-ls.line-clamp-1"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": "h3 > a"
+        },
+        "container": ".ui-section.ui-r-py .ui-r-mb.group"
+    }
+}

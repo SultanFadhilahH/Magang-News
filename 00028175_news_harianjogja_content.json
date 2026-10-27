@@ -1,0 +1,49 @@
+{
+    "path": "00028175_news_harianjogja",
+    "selector": {
+        "date": {
+            "tag": ".author-details .publish-date",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ""
+        ],
+        "title": ".article-detail-header > h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".author-name a"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".article-detail-image",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".article-detail-content p"
+        ],
+        "categories": [
+            ""
+        ],
+        "exceptions": [
+            ".latest-news-section full-width",
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [
+                ".baca-juga-title"
+            ],
+            "selectors": [
+                ".baca-juga-section"
+            ]
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "url": "https://berita.murianews.com/",
+    "path": "00028181_berita_murianews",
+    "selector": {
+        "url": {
+            "tag": "a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".img-card",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".cl-gray margin-left-sm"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": "a > h3"
+        },
+        "container": ".blockbox.margin-bottom-xl .card-box.ft150.margin-bottom-xl"
+    }
+}

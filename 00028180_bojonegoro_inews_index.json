@@ -1,0 +1,26 @@
+{
+    "url": "https://bojonegoro.inews.id/",
+    "path": "00028180_bojonegoro_inews",
+    "selector": {
+        "url": {
+            "tag": "h4 > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".cardImg > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".postTime"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": ".cardTitle > a"
+        },
+        "container": ".widgetListArticle.row.mb-0 .cardArticle"
+    }
+}

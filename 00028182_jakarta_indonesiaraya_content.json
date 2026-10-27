@@ -1,0 +1,49 @@
+{
+    "path": "00028182_jakarta_indonesiaraya",
+    "selector": {
+        "date": {
+            "tag": ".read__info__date",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ""
+        ],
+        "title": "h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".read__info__author"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".photo__img > img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".col-bs10-7.col-offset-0 p"
+        ],
+        "categories": [
+            ""
+        ],
+        "exceptions": [
+            ".latest.latest--article.mt3.clearfix",
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [],
+            "selectors": []
+        }
+    },
+    "full_page": {
+        "page": "all"
+    },
+    "tunnel_mode": "venom"
+}

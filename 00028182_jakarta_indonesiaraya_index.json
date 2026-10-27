@@ -1,0 +1,27 @@
+{
+    "url": "https://jakarta.indonesiaraya.co.id/",
+    "path": "00028182_jakarta_indonesiaraya",
+    "selector": {
+        "url": {
+            "tag": "h2 > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".latest__img > a > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".latest__date"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": "h2 > a"
+        },
+        "container": ".latest__wrap .latest__right"
+    },
+    "tunnel_mode": "venom"
+}

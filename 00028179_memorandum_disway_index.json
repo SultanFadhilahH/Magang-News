@@ -1,0 +1,26 @@
+{
+    "url": "https://memorandum.disway.id/",
+    "path": "00028179_memorandum_disway",
+    "selector": {
+        "url": {
+            "tag": "h2 > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".media-right.thumb-post > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".date"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": "h2 > a"
+        },
+        "container": ".bottom-15 .media-body.media-content.media-middle"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "url": "https://indonesia.hallo.id/",
+    "path": "00028178_indonesia_hallo",
+    "selector": {
+        "url": {
+            "tag": "h2 > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".latest__img > a > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".latest__date"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": ".latest__title > a"
+        },
+        "container": ".latest.clearfix .latest__item"
+    },
+    "tunnel_mode": "venom"
+}

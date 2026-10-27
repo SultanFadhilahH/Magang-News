@@ -1,0 +1,53 @@
+{
+    "path": "00028178_indonesia_hallo",
+    "selector": {
+        "date": {
+            "tag": ".read__info__date",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ""
+        ],
+        "title": ".read__title",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".read__info__author a"
+            ]
+        },
+        "images": [
+            {
+                "tag": "photo__img > img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".read__content.clearfix p"
+        ],
+        "categories": [
+            ""
+        ],
+        "exceptions": [
+            ".mgbox",
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [
+                "Baca Juga: "
+            ],
+            "selectors": [
+                ".read__others"
+            ]
+        }
+    },
+    "full_page": {
+        "page": "all"
+    },
+    "tunnel_mode": "venom"
+}

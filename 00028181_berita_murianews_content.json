@@ -1,0 +1,52 @@
+{
+    "path": "00028181_berita_murianews",
+    "selector": {
+        "date": {
+            "tag": ".title.fw4.cl-gray.margin-bottom-no",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ""
+        ],
+        "title": ".judul-artikel.print-content.margin-bottom-xs > .title.margin-bottom-sm",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".title.margin-bottom-ss > a"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".foto-artikel.radius0 > img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".detail-in.margin-bottom-xl p"
+        ],
+        "categories": [
+            ""
+        ],
+        "exceptions": [
+            ".blockbox.box-terkini",
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [
+                "Baca Juga"
+            ],
+            "selectors": [
+                ".title.line1"
+            ]
+        }
+    },
+    "full_page": {
+        "page": "all"
+    }
+}

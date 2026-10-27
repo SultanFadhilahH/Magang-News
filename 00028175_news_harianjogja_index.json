@@ -1,0 +1,26 @@
+{
+    "url": "https://news.harianjogja.com/",
+    "path": "00028175_news_harianjogja",
+    "selector": {
+        "url": {
+            "tag": "a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".latest-news-image > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".latest-news-date"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": "h3"
+        },
+        "container": ".latest-news-list .latest-news-item"
+    }
+}

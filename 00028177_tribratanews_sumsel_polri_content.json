@@ -1,0 +1,46 @@
+{
+    "path": "00028177_tribratanews_sumsel_polri",
+    "selector": {
+        "date": {
+            "tag": ".article-meta .datetime",
+            "attr": "",
+            "format": "dd/mm/yyyy"
+        },
+        "tags": [
+            ""
+        ],
+        "title": ".article-head > h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".article-meta .reporter"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".article-figure > img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".article-body p"
+        ],
+        "categories": [
+            ""
+        ],
+        "exceptions": [
+            ".related",
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [],
+            "selectors": []
+        }
+    },
+    "tunnel_mode": "venom"
+}

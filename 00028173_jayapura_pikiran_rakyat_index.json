@@ -1,0 +1,27 @@
+{
+    "url": "https://jayapura.pikiran-rakyat.com/",
+    "path": "00028173_jayapura_pikiran_rakyat",
+    "selector": {
+        "url": {
+            "tag": "h2 > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".latest__img > a > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".latest__date"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": "h2 > a"
+        },
+        "container": ".latest__wrap.mail .latest__item"
+    },
+    "tunnel_mode": "venom"
+}

@@ -1,0 +1,27 @@
+{
+    "url": "https://tribratanews.sumsel.polri.go.id/",
+    "path": "00028177_tribratanews_sumsel_polri",
+    "selector": {
+        "url": {
+            "tag": "h3 > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".politics-grid > a > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".meta"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": "h3 > a"
+        },
+        "container": ".politics .politics-card"
+    },
+    "tunnel_mode": "venom"
+}
