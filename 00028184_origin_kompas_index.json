@@ -1,0 +1,26 @@
+{
+    "url": "https://origin.kompas.tv/",
+    "path": "00028184_origin_kompas",
+    "selector": {
+        "url": {
+            "tag": ".title-news.p10 > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".col-30 > a > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".time-news p10"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": ".title-news.p10"
+        },
+        "container": ".col-70 .content-each"
+    }
+}

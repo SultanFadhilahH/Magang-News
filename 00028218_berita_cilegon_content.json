@@ -1,0 +1,45 @@
+{
+    "path": "00028218_berita_cilegon",
+    "selector": {
+        "date": {
+            "tag": ".text-dark.text-capitalize.ml-1",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ""
+        ],
+        "title": ".wrap__article-detail-title > h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".list-inline-item"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".wrap__article-detail-image > figure > img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".wrap__article-detail p"
+        ],
+        "categories": [
+            ""
+        ],
+        "exceptions": [
+            ".related-article",
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [],
+            "selectors": []
+        }
+    }
+}

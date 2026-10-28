@@ -1,0 +1,50 @@
+{
+    "path": "00028184_origin_kompas",
+    "selector": {
+        "date": {
+            "tag": ".time-news",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ""
+        ],
+        "title": ".title-news-big-detail",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".author-text"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".embed-container > img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".paragraph p"
+        ],
+        "categories": [
+            ""
+        ],
+        "exceptions": [
+            ".shorts shortsList",
+            ".mgidclsbanner",
+            ".style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [
+                "Baca Juga: "
+            ],
+            "selectors": [
+                "strong"
+            ]
+        }
+    }
+}

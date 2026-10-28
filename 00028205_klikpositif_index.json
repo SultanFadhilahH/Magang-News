@@ -1,0 +1,26 @@
+{
+    "url": "https://klikpositif.com/",
+    "path": "00028205_klikpositif",
+    "selector": {
+        "url": {
+            "tag": "h3 > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".thumbnail-container.size-715 > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".jeg_meta_date"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": ".jeg_post_title"
+        },
+        "container": ".jeg_posts.jeg_load_more_flag .jeg_post.jeg_pl_md_2.format-standard"
+    }
+}

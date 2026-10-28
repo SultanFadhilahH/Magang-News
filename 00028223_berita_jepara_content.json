@@ -1,0 +1,47 @@
+{
+    "path": "00028223_berita_jepara",
+    "selector": {
+        "date": {
+            "tag": ".jeg_meta_date > a",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ""
+        ],
+        "title": ".entry-header > h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".jeg_meta_author"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".thumbnail-container.animate-lazy > img",
+                "attr": "data-src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".content-inner p"
+        ],
+        "categories": [
+            ".jeg_meta_category"
+        ],
+        "exceptions": [
+            ".widget.widget_jnews_module_block_21",
+            ".widget widget_jnews_popular",
+            "jnews_related_post_container",
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [],
+            "selectors": []
+        }
+    }
+}

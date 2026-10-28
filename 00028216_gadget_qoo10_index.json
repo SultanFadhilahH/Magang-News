@@ -1,0 +1,27 @@
+{
+    "url": "https://gadget.qoo10.co.id/",
+    "path": "00028216_gadget_qoo10",
+    "selector": {
+        "url": {
+            "tag": ".post-details > h2 > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".post-thumb-overlay-wrap > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".date meta-item tie-icon"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": ".post-details > h2"
+        },
+        "container": ".container-wrapper .post-item.tie-standard"
+    },
+    "tunnel_mode": "venom"
+}

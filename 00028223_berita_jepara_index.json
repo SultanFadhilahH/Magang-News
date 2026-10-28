@@ -1,0 +1,26 @@
+{
+    "url": "https://berita.jepara.go.id/",
+    "path": "00028223_berita_jepara",
+    "selector": {
+        "url": {
+            "tag": ".jeg_postblock_content > h3 > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".thumbnail-container.animate-lazy.size-715 > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".jeg_meta_date"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": ".jeg_postblock_content > h3"
+        },
+        "container": ".jeg_posts.jeg_load_more_flag .jeg_post.jeg_pl_md_5.format-standard"
+    }
+}

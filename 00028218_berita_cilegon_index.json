@@ -1,0 +1,27 @@
+{
+    "url": "https://berita.cilegon.go.id/",
+    "path": "00028218_berita_cilegon",
+    "selector": {
+        "url": {
+            "tag": ".card__post__title > h6 > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".image-sm > a > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".list-inline-item"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": ".card__post__title > h6"
+        },
+        "container": ".col-md-12.col-lg-8 .card__post.card__post-list"
+    },
+    "tunnel_mode": "venom"
+}

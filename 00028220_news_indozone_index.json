@@ -1,0 +1,26 @@
+{
+    "url": "https://news.indozone.id/",
+    "path": "00028220_news_indozone",
+    "selector": {
+        "url": {
+            "tag": ".text > h2 > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".pic",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".meta-info"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": ".text > h2"
+        },
+        "container": ".mb-8 .news-item"
+    }
+}

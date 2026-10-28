@@ -1,0 +1,50 @@
+{
+    "path": "00028220_news_indozone",
+    "selector": {
+        "date": {
+            "tag": ".meta-info",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ""
+        ],
+        "title": ".article-head > h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".author"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".article-ct > p > img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".article-ct p"
+        ],
+        "categories": [
+            ""
+        ],
+        "exceptions": [
+            ".banner-ads.br-25",
+            ".banner-ads.mt-3",
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [
+                "Baca juga: "
+            ],
+            "selectors": [
+                ".read__others"
+            ]
+        }
+    }
+}

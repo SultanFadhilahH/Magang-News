@@ -1,0 +1,26 @@
+{
+    "url": "https://medan.viva.co.id/",
+    "path": "00028207_medan_viva",
+    "selector": {
+        "url": {
+            "tag": ".article-list-info.content_center > span > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".article-list-thumb > a > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".article-list-date.content_center"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": ".article-list-title > h2"
+        },
+        "container": ".article-list-container .article-list-row"
+    }
+}

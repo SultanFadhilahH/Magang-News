@@ -1,0 +1,27 @@
+{
+    "url": "https://tribratanews.restablitar.jatim.polri.go.id/",
+    "path": "00028213_tribratanews_restablitar_jatim_polri",
+    "selector": {
+        "url": {
+            "tag": ".title.mb-2 > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".item-image-wrapper.position-relative.flex-shrink-0 > a > img",
+                "prefix": "src"
+            },
+            "time": {
+                "tag": ""
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": ".title.mb-2"
+        },
+        "container": ".row.latest-articles .col-sm-12.col-12.mb-4"
+    },
+    "tunnel_mode": "venom"
+}

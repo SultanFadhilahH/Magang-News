@@ -1,0 +1,26 @@
+{
+    "url": "https://www.fraksipkb.com/",
+    "path": "00028210_fraksipkb",
+    "selector": {
+        "url": {
+            "tag": ".entry-content > h4 > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".entry-thumb > a > img",
+                "prefix": "data-src"
+            },
+            "time": {
+                "tag": ".entry-date"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": ".entry-content > h4"
+        },
+        "container": ".widget.kopa-article-list-widget.article-list-1 .entry-item"
+    }
+}

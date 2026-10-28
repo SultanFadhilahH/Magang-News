@@ -1,0 +1,45 @@
+{
+    "path": "00028213_tribratanews_restablitar_jatim_polri",
+    "selector": {
+        "date": {
+            "tag": "[property=\"article:published_time\"]",
+            "attr": "content",
+            "format": "yyyy-mm-dd"
+        },
+        "tags": [
+            ""
+        ],
+        "title": ".post-content > h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".post-author-meta.sp-left"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".post-image-inner > img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".post-text p"
+        ],
+        "categories": [
+            ""
+        ],
+        "exceptions": [
+            ".section section-related-posts",
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [],
+            "selectors": []
+        }
+    }
+}

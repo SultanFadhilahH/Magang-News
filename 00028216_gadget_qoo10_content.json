@@ -1,0 +1,50 @@
+{
+    "path": "00028216_gadget_qoo10",
+    "selector": {
+        "date": {
+            "tag": ".date.meta-item.tie-icon",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ""
+        ],
+        "title": ".entry-header > h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".meta-author"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".single-featured-image > img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".entry-content.entry.clearfix p"
+        ],
+        "categories": [
+            ""
+        ],
+        "exceptions": [
+            ".theiaStickySidebar",
+            ".post-components",
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [
+                "Baca Juga"
+            ],
+            "selectors": [
+                ".inline-related-post"
+            ]
+        }
+    }
+}

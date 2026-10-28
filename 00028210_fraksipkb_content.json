@@ -1,0 +1,45 @@
+{
+    "path": "00028210_fraksipkb",
+    "selector": {
+        "date": {
+            "tag": ".entry-meta.mb-20 > .entry-date",
+            "attr": "",
+            "format": "MMMM dd, yyyy"
+        },
+        "tags": [
+            ""
+        ],
+        "title": ".entry-title",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ""
+            ]
+        },
+        "images": [
+            {
+                "tag": ".entry-item > img",
+                "attr": "data-src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            "p"
+        ],
+        "categories": [
+            ""
+        ],
+        "exceptions": [
+            ".widget.kopa-article-list-widget.article-list-1",
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [],
+            "selectors": []
+        }
+    }
+}

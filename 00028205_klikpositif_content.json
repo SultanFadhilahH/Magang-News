@@ -1,0 +1,49 @@
+{
+    "path": "00028205_klikpositif",
+    "selector": {
+        "date": {
+            "tag": ".jeg_meta_date > a",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ""
+        ],
+        "title": ".jeg_post_title",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".jeg_meta_author"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".jeg_featured.featured_image > a > .thumbnail-container > img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".content-inner.jeg_link_underline p"
+        ],
+        "categories": [
+            ""
+        ],
+        "exceptions": [
+            ".jeg_postblock_21.jeg_postblock.jeg_module_hook.jeg_pagination_disable.jeg_col_2o3.jnews_module_214461_3_6ae010a9aa27d",
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [
+                "Baca "
+            ],
+            "selectors": [
+                ".jeg_block_title"
+            ]
+        }
+    }
+}
