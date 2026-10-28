@@ -1,0 +1,46 @@
+{
+    "path": "00028230_beritanusra",
+    "selector": {
+        "date": {
+            "tag": ".read__info__date",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ".tag.tag--article.clearfix"
+        ],
+        "title": ".read__header.mt2.clearfix > h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".read__info__author"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".photo__img > img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".read__content.clearfix p"
+        ],
+        "categories": [
+            ".breadcrumb__item > a"
+        ],
+        "exceptions": [
+            ".rec__disclaimer",
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [],
+            "selectors": []
+        }
+    },
+    "tunnel_mode": "venom"
+}

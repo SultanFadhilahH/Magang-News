@@ -1,0 +1,49 @@
+{
+    "path": "00028231_m_antaranews",
+    "selector": {
+        "date": {
+            "tag": ".text-secondary.font-weight-normal",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ".blog-tags"
+        ],
+        "title": ".wrap__article-detail-title > h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".text-muted.mt-2.small"
+            ]
+        },
+        "images": [
+            {
+                "tag": "picture > img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".wrap__article-detail-content.post-content p"
+        ],
+        "categories": [
+            ""
+        ],
+        "exceptions": [
+            ".wrapper__list__article mb-0",
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [
+                "Baca juga: "
+            ],
+            "selectors": [
+                ".baca-juga"
+            ]
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "url": "https://esgnow.republika.co.id/",
+    "path": "00028238_esgnow_republika",
+    "selector": {
+        "url": {
+            "tag": ".list-group-item.list-border.conten1 > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".image > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".date"
+            },
+            "category": {
+                "tag": ".kanal-info"
+            }
+        },
+        "title": {
+            "tag": ".caption > h3"
+        },
+        "container": ".list-group.wrap-latest .list-group-item.list-border.conten1"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "url": "https://m.antaranews.com/",
+    "path": "00028231_m_antaranews",
+    "selector": {
+        "url": {
+            "tag": "h3 > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".image-sm position-relative > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".text-secondary"
+            },
+            "category": {
+                "tag": ".slug"
+            }
+        },
+        "title": {
+            "tag": ".card__post__title > h3"
+        },
+        "container": ".col-md-8 .wrapp__list__article-responsive"
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "path": "00028236_hijau_bisnis",
+    "selector": {
+        "date": {
+            "tag": ".detailsAttributeDates",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ".detailsTag"
+        ],
+        "title": ".detailsTitleCaption",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".authorName > strong"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".detailsCoverImg.artImg > a > img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".detailsContent.force-17.mt40 p"
+        ],
+        "categories": [
+            ".breadcrumbItem.-active"
+        ],
+        "exceptions": [
+            ".premiumBox mt40",
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [
+                "Baca Juga"
+            ],
+            "selectors": [
+                ".baca-juga-box"
+            ]
+        }
+    },
+    "tunnel_mode": "venom"
+}

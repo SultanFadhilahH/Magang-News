@@ -1,0 +1,27 @@
+{
+    "url": "https://hijau.bisnis.com/",
+    "path": "00028236_hijau_bisnis",
+    "selector": {
+        "url": {
+            "tag": ".artContent > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".artImg > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".artDate"
+            },
+            "category": {
+                "tag": ".artChannel "
+            }
+        },
+        "title": {
+            "tag": ".artTitle"
+        },
+        "container": ".art.mt30 .artItem"
+    },
+    "tunnel_mode": "venom"
+}

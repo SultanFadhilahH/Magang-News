@@ -1,0 +1,27 @@
+{
+    "url": "https://www.beritanusra.com/",
+    "path": "00028230_beritanusra",
+    "selector": {
+        "url": {
+            "tag": "h2 > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".latest__img > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".latest__date"
+            },
+            "category": {
+                "tag": ".latest__subtitle"
+            }
+        },
+        "title": {
+            "tag": ".latest__right > h2"
+        },
+        "container": ".latest__wrap .latest__item"
+    },
+    "tunnel_mode": "venom"
+}

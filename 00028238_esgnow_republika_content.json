@@ -1,0 +1,51 @@
+{
+    "path": "00028238_esgnow_republika",
+    "selector": {
+        "date": {
+            "tag": ".date.date-item__headline",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ".tag"
+        ],
+        "title": ".max-card__title > h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".max-card__title > div"
+            ]
+        },
+        "images": [
+            {
+                "tag": "img",
+                "attr": "data-original"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".article-content p"
+        ],
+        "categories": [
+            ""
+        ],
+        "exceptions": [
+            ".container-lit.container-lit-terkait",
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [
+                "Baca Juga",
+                "Baca Juga:"
+            ],
+            "selectors": [
+                ".picked-article",
+                "#bn_og8s40fmty"
+            ]
+        }
+    }
+}
