@@ -1,0 +1,26 @@
+{
+    "url": "https://lampung.viva.co.id/",
+    "path": "00028226_lampung_viva",
+    "selector": {
+        "url": {
+            "tag": "a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".article-list-thumb.thumb-loading > a > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".article-list-date.content_center"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": "h2"
+        },
+        "container": ".article-list-row"
+    }
+}

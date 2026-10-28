@@ -1,0 +1,44 @@
+{
+    "path": "00028185_amp_suara",
+    "selector": {
+        "date": {
+            "tag": ".date-article",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ""
+        ],
+        "title": "h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".writer"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".img-cover > img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".detail-content.detail-berita p"
+        ],
+        "categories": [
+            ""
+        ],
+        "exceptions": [
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [],
+            "selectors": []
+        }
+    }
+}

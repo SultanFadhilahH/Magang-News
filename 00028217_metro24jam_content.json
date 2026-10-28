@@ -1,0 +1,49 @@
+{
+    "path": "00028217_metro24jam",
+    "selector": {
+        "date": {
+            "tag": ".post-header.meta",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ""
+        ],
+        "title": "h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".fn.author"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".separator > a> img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".widget-middle p"
+        ],
+        "categories": [
+            ""
+        ],
+        "exceptions": [
+            ".artikel-terkini",
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [
+                "Baca juga:"
+            ],
+            "selectors": [
+                ".related-post-by-title"
+            ]
+        }
+    }
+}

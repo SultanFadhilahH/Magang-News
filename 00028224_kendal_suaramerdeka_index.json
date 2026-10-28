@@ -1,0 +1,27 @@
+{
+    "url": "https://kendal.suaramerdeka.com/",
+    "path": "00028224_kendal_suaramerdeka",
+    "selector": {
+        "url": {
+            "tag": "h2 > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".latest__img > a > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".latest__date"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": "h2 > a"
+        },
+        "container": ".latest__wrap .latest__item"
+    },
+    "tunnel_mode": "venom"
+}

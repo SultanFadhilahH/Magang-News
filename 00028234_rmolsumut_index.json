@@ -1,0 +1,26 @@
+{
+    "url": "https://www.rmolsumut.id/",
+    "path": "00028234_rmolsumut",
+    "selector": {
+        "url": {
+            "tag": "h3 > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".space-y-4 > a > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": "time"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": "h3 > a"
+        },
+        "container": ".w-full.space-y-4 .space-y-4"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "url": "https://www.sindonews.com/",
+    "path": "00028212_media_sindonews",
+    "selector": {
+        "url": {
+            "tag": "a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": "img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".date"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": ".title-article a, .title-article"
+        },
+        "container": ".list-article"
+    }
+}

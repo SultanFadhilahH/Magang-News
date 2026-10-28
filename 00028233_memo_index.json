@@ -1,0 +1,26 @@
+{
+    "url": "https://memo.co.id/",
+    "path": "00028233_memo",
+    "selector": {
+        "url": {
+            "tag": "h2 > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".box-item > a > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".entry-date.published"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": "h2 > a"
+        },
+        "container": ".col-md-8 .post.type-post.hentry"
+    }
+}

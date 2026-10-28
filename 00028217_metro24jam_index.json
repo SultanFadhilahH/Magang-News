@@ -1,0 +1,26 @@
+{
+    "url": "https://www.metro24jam.co.id/",
+    "path": "00028217_metro24jam",
+    "selector": {
+        "url": {
+            "tag": "h2 > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".post-thumbnail > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".post-header.meta"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": "h2 > a"
+        },
+        "container": ".blog-posts.hfeed .post-outer"
+    }
+}

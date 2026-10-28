@@ -1,0 +1,45 @@
+{
+    "path": "00028186_indonesiainfo",
+    "selector": {
+        "date": {
+            "tag": ".post-like .posting",
+            "attr": "",
+            "format": "dd MMM yyyy"
+        },
+        "tags": [],
+        "title": ".row > h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".posting-like .posting"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".row img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".row .col-md-10.col-xs-12.detailNews p"
+        ],
+        "categories": [],
+        "exceptions": [
+            ".sideLongform.col-xs-12",
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [
+                "Baca juga:"
+            ],
+            "selectors": [
+                ".col-md-10.col-xs-12.detailNews"
+            ]
+        }
+    }
+}

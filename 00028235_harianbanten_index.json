@@ -1,0 +1,26 @@
+{
+    "url": "https://harianbanten.com/",
+    "path": "00028235_harianbanten",
+    "selector": {
+        "url": {
+            "tag": "a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".news-feed-link > figure > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".tanggal"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": "h2"
+        },
+        "container": ".news-feed-list"
+    }
+}

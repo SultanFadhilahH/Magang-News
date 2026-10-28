@@ -1,0 +1,48 @@
+{
+    "path": "00028227_janalokajournal",
+    "selector": {
+        "date": {
+            "tag": ".meta-publish-date",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ""
+        ],
+        "title": "h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".meta-author-name"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".featured-image-container > img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".entry-content p"
+        ],
+        "categories": [
+            ""
+        ],
+        "exceptions": [
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [
+                ""
+            ],
+            "selectors": [
+                "inline-related-card"
+            ]
+        }
+    }
+}

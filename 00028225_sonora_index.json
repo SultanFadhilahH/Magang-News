@@ -1,0 +1,26 @@
+{
+    "url": "https://www.sonora.co.id/",
+    "path": "00028225_sonora",
+    "selector": {
+        "url": {
+            "tag": ".artItem.col-5.col-md-5.col-lg-2half > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".artItem-images > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".artItem-dates"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": "h3"
+        },
+        "container": ".artCol.row .artItem.col-5.col-md-5.col-lg-2half"
+    }
+}

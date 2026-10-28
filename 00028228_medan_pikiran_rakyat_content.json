@@ -1,0 +1,49 @@
+{
+    "path": "00028228_medan_pikiran_rakyat",
+    "selector": {
+        "date": {
+            "tag": ".date_detail",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ""
+        ],
+        "title": "h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".read__info__author"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".photo__img > img",
+                "attr": "data-src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".read__content.clearfix p"
+        ],
+        "categories": [
+            ""
+        ],
+        "exceptions": [
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [
+                "Baca Juga: "
+            ],
+            "selectors": [
+                "strong"
+            ]
+        }
+    },
+    "tunnel_mode": "venom"
+}

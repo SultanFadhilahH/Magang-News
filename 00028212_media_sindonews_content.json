@@ -1,0 +1,52 @@
+{
+    "path": "00028212_media_sindonews",
+    "selector": {
+        "date": {
+            "tag": ".detail-date-artikel",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ""
+        ],
+        "title": "h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".detail-nama-redaksi"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".detail-img > img",
+                "attr": "data-src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".detail-desc"
+        ],
+        "categories": [
+            ""
+        ],
+        "exceptions": [
+            ".mgbox",
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [
+                "Baca juga: "
+            ],
+            "selectors": [
+                "strong"
+            ]
+        }
+    },
+    "full_page": {
+        "page": "all"
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "path": "00028219_acehjurnal",
+    "selector": {
+        "date": {
+            "tag": ".meta time",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [],
+        "title": "h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".entry-author",
+                ".author"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".entry-figure img, .entry-content img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".entry-content p",
+            "article p"
+        ],
+        "categories": [],
+        "exceptions": [
+            "style",
+            "script",
+            ".ads",
+            ".sharedaddy"
+        ],
+        "article_link": {
+            "patterns": [
+                "Baca Juga",
+                "Baca juga"
+            ],
+            "selectors": [
+                ".rel-in",
+                ".entry-content"
+            ]
+        }
+    }
+}

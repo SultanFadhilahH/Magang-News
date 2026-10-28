@@ -1,0 +1,26 @@
+{
+    "url": "https://www.indonesiainfo.id/",
+    "path": "00028186_indonesiainfo",
+    "selector": {
+        "url": {
+            "tag": ".newsWord > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".imageNews > a > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".dt-news"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": ".newsWord > a > h2"
+        },
+        "container": ".containerLeft.col-xs-12 .columnsNews.columns"
+    }
+}

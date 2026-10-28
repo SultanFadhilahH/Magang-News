@@ -1,0 +1,26 @@
+{
+    "url": "https://janalokajournal.id/",
+    "path": "00028227_janalokajournal",
+    "selector": {
+        "url": {
+            "tag": "h3 > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".home-grid-media > a > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".home-grid-date"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": "h3 > a"
+        },
+        "container": ".homepage-category-block .home-grid-card"
+    }
+}

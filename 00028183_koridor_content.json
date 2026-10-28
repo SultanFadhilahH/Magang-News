@@ -1,0 +1,45 @@
+{
+    "path": "00028183_koridor",
+    "selector": {
+        "date": {
+            "tag": "time",
+            "attr": "",
+            "format": "MMMM dd, yyyy"
+        },
+        "tags": [
+            ""
+        ],
+        "title": "h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".oduu-article-author-name.oduu-text-bolder"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".oduu-featured-images > a > img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".oduu-content p"
+        ],
+        "categories": [
+            ""
+        ],
+        "exceptions": [],
+        "article_link": {
+            "patterns": [
+                " Also Read "
+            ],
+            "selectors": [
+                ".oduu-widget-content"
+            ]
+        }
+    }
+}

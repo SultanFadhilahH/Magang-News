@@ -1,0 +1,43 @@
+{
+    "path": "00028222_seputarborneo",
+    "selector": {
+        "date": {
+            "tag": ".sb-artikel__baris",
+            "attr": "",
+            "format": "dd-mm-yyyy"
+        },
+        "tags": [
+            ""
+        ],
+        "title": "h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".sb-artikel__penulis"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".sb-artikel__gambar > img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".sb-isi p"
+        ],
+        "categories": [
+            ""
+        ],
+        "exceptions": [
+            ".sb-grid.sb-grid--4"
+        ],
+        "article_link": {
+            "patterns": [],
+            "selectors": []
+        }
+    }
+}

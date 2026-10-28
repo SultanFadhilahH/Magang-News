@@ -1,0 +1,45 @@
+{
+    "path": "00028232_pewartanusantara",
+    "selector": {
+        "date": {
+            "tag": "time",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ".pn-tags"
+        ],
+        "title": "h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".pn-entry-author"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".pn-featured-image > img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".entry-content.pn-copy-source p"
+        ],
+        "categories": [
+            ".pn-category-label"
+        ],
+        "exceptions": [
+            ".pn-related-news",
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [],
+            "selectors": []
+        }
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "path": "00028226_lampung_viva",
+    "selector": {
+        "date": {
+            "tag": ".main-content-date",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ""
+        ],
+        "title": "h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".main-content-author"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".main-content-image > a > img",
+                "attr": "srcset"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".main-content-detail p"
+        ],
+        "categories": [
+            ""
+        ],
+        "exceptions": [
+            ".base-container.widget-berita-terkait",
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [
+                "Baca Juga"
+            ],
+            "selectors": [
+                ".recommended-article"
+            ]
+        }
+    }
+}

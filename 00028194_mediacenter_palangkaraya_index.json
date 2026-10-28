@@ -1,0 +1,26 @@
+{
+    "url": "https://mediacenter.palangkaraya.go.id/",
+    "path": "00028194_mediacenter_palangkaraya",
+    "selector": {
+        "url": {
+            "tag": "h3 > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".post-thumbnail.tie-appear > a > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".tie-date"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": "h3 > a"
+        },
+        "container": ".content .recent-item"
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "path": "00028235_harianbanten",
+    "selector": {
+        "date": {
+            "tag": ".tanggal-single",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ".tagname"
+        ],
+        "title": "h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".nama-penulis"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".foto-utama > img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".single-article-text p"
+        ],
+        "categories": [
+            ""
+        ],
+        "exceptions": [
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [
+                "Baca Juga:"
+            ],
+            "selectors": [
+                ".code-block.code-block-1"
+            ]
+        }
+    }
+}

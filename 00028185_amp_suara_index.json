@@ -1,0 +1,26 @@
+{
+    "url": "https://www.suara.com/",
+    "path": "00028185_amp_suara",
+    "selector": {
+        "url": {
+            "tag": "h3 > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".latest-img-wrapper > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".pub-time"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": "h3 > a"
+        },
+        "container": ".latest-news .latest-item"
+    }
+}

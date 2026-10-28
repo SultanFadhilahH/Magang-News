@@ -1,0 +1,26 @@
+{
+    "url": "https://www.acehjurnal.com/",
+    "path": "00028219_acehjurnal",
+    "selector": {
+        "url": {
+            "tag": "h3 > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".wrap.hero-grid > a > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": "time"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": "h3 > a"
+        },
+        "container": ".feed .row__body"
+    }
+}

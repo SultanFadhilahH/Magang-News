@@ -1,0 +1,26 @@
+{
+    "url": "https://batampos.co.id/",
+    "path": "00028221_news_batampos",
+    "selector": {
+        "url": {
+            "tag": "h3 a, h4 a, .td-module-title a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".td-module-thumb img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": "time.entry-date, .td-post-date"
+            },
+            "category": {
+                "tag": ".td-post-category"
+            }
+        },
+        "title": {
+            "tag": "h3 a, h4 a, .td-module-title a"
+        },
+        "container": ".td_module_flex, .td-module-container"
+    }
+}

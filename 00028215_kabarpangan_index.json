@@ -1,0 +1,27 @@
+{
+    "url": "https://www.kabarpangan.com/",
+    "path": "00028215_kabarpangan",
+    "selector": {
+        "url": {
+            "tag": "h2 > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".latest__img > a > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".latest__date"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": "h2 > a"
+        },
+        "container": ".latest__wrap .latest__item.clearfix"
+    },
+    "tunnel_mode": "venom"
+}

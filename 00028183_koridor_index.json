@@ -1,0 +1,26 @@
+{
+    "url": "https://koridor.co.id/",
+    "path": "00028183_koridor",
+    "selector": {
+        "url": {
+            "tag": "h2 > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".oduu-article-image",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".oduu-article-date"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": "h2 > a"
+        },
+        "container": ".oduu-widget-content .oduu-article-item.oduu-article-item-index"
+    }
+}

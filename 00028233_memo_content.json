@@ -1,0 +1,45 @@
+{
+    "path": "00028233_memo",
+    "selector": {
+        "date": {
+            "tag": "time",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ".tags-links"
+        ],
+        "title": "h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".author.vcard"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".post-thumbnail.gmr-thumbnail-single > img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".single-wrap p"
+        ],
+        "categories": [
+            ""
+        ],
+        "exceptions": [
+            ".gmr-related-post",
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [],
+            "selectors": []
+        }
+    }
+}

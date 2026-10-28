@@ -1,0 +1,26 @@
+{
+    "url": "https://www.republika.co.id/",
+    "path": "00028211_ekonomi_republika",
+    "selector": {
+        "url": {
+            "tag": ".list-group-item.list-border.conten1 > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".image > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".date"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": "h3"
+        },
+        "container": ".container-lit .list-group-item.list-border.conten1"
+    }
+}

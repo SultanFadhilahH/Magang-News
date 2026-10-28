@@ -1,0 +1,48 @@
+{
+    "path": "00028211_ekonomi_republika",
+    "selector": {
+        "date": {
+            "tag": ".date, .date-item__headline",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [],
+        "title": "h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".text-author",
+                ".author",
+                ".kanal-info"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".article-content img, .foto-artikel img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".article-content p, .artikel-content p"
+        ],
+        "categories": [],
+        "exceptions": [
+            ".container-lit.container-lit-terkait",
+            "style",
+            "script",
+            ".ads"
+        ],
+        "article_link": {
+            "patterns": [
+                "Baca Juga"
+            ],
+            "selectors": [
+                ".picked-article"
+            ]
+        }
+    }
+}

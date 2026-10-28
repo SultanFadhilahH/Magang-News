@@ -1,0 +1,26 @@
+{
+    "url": "https://www.pewartanusantara.com/",
+    "path": "00028232_pewartanusantara",
+    "selector": {
+        "url": {
+            "tag": "h2 > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".pn-card-media > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".pn-card-meta"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": "h2 > a"
+        },
+        "container": ".pn-list-stack .pn-card.pn-card-horizontal.post-47924.post.type-post.status-publish.format-standard.has-post-thumbnail.hentry.category-berita.tag-mangga.tag-panen.tag-sekolah"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "url": "https://seputarborneo.com/",
+    "path": "00028222_seputarborneo",
+    "selector": {
+        "url": {
+            "tag": "h3 > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".sb-kartu__foto > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".sb-meta"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": "h3 > a"
+        },
+        "container": ".sb-grid.sb-grid--4 .sb-kartu.sb-kartu--sedang"
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "path": "00028194_mediacenter_palangkaraya",
+    "selector": {
+        "date": {
+            "tag": ".tie-date, time",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [],
+        "title": "h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".post-author",
+                ".author-name"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".entry img, .entry-content img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".entry-content p",
+            ".entry p"
+        ],
+        "categories": [],
+        "exceptions": [
+            "style",
+            "script",
+            ".share-post"
+        ],
+        "article_link": {
+            "patterns": [
+                "Baca Juga",
+                "Baca juga"
+            ],
+            "selectors": [
+                ".entry-content"
+            ]
+        }
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "path": "00028234_rmolsumut",
+    "selector": {
+        "date": {
+            "tag": "time",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ".space-y-2"
+        ],
+        "title": "h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".truncate"
+            ]
+        },
+        "images": [
+            {
+                "tag": "figure > img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".space-y-8 p"
+        ],
+        "categories": [
+            ""
+        ],
+        "exceptions": [
+            ".space-y-5 pb-10",
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [],
+            "selectors": []
+        }
+    }
+}

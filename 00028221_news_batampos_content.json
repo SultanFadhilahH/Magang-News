@@ -1,0 +1,44 @@
+{
+    "path": "00028221_news_batampos",
+    "selector": {
+        "date": {
+            "tag": "time",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ""
+        ],
+        "title": "h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".tdb-author-name"
+            ]
+        },
+        "images": [
+            {
+                "tag": "#attachment_526877 > img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".tdb-block-inner.td-fix-index p"
+        ],
+        "categories": [
+            ""
+        ],
+        "exceptions": [
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [],
+            "selectors": []
+        }
+    }
+}
