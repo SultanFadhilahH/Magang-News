@@ -1,0 +1,26 @@
+{
+    "url": "https://pdiperjuangan-jatim.com/",
+    "path": "00028250_pdiperjuangan_jatim",
+    "selector": {
+        "url": {
+            "tag": "h3 > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".rounded-7.overflow.ms-3 > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".item-metadata posts-date"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": "h3 > a"
+        },
+        "container": ".box-index .d-flex.position-relative.list-sm.mb-3.zoom"
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "path": "00028263_prokopim_magetan",
+    "selector": {
+        "date": {
+            "tag": "time",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ""
+        ],
+        "title": "h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".author.vcard"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".post-thumbnail > img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".entry-content p"
+        ],
+        "categories": [
+            ""
+        ],
+        "exceptions": [],
+        "article_link": {
+            "patterns": [],
+            "selectors": []
+        }
+    }
+}

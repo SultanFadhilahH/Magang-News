@@ -1,0 +1,27 @@
+{
+    "url": "https://bali.jpnn.com/",
+    "path": "00028257_bali_jpnn",
+    "selector": {
+        "url": {
+            "tag": "h3 > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".content-picture > a > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".silver"
+            },
+            "category": {
+                "tag": ".uppercase.red"
+            }
+        },
+        "title": {
+            "tag": "h3 > a"
+        },
+        "container": ".content-list"
+    },
+    "tunnel_mode": "venom"
+}

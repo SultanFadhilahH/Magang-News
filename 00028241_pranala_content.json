@@ -1,0 +1,49 @@
+{
+    "path": "00028241_pranala",
+    "selector": {
+        "date": {
+            "tag": "time",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ".w-full"
+        ],
+        "title": "h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                "header span",
+                ".author"
+            ]
+        },
+        "images": [
+            {
+                "tag": "article img",
+                "attr": ""
+            }
+        ],
+        "videos": [],
+        "contents": [
+            "article p",
+            "div p"
+        ],
+        "categories": [],
+        "exceptions": [
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [
+                "BACA JUGA",
+                "Baca juga"
+            ],
+            "selectors": [
+                "article"
+            ]
+        }
+    }
+}

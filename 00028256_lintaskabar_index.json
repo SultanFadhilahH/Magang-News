@@ -1,0 +1,26 @@
+{
+    "url": "https://lintaskabar.id/",
+    "path": "00028256_lintaskabar",
+    "selector": {
+        "url": {
+            "tag": "h2 > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": "picture > source > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".terkini-date"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": "h2 > a"
+        },
+        "container": ".terkini-box .terkini-item"
+    }
+}

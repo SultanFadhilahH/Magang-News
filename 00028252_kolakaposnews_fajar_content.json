@@ -1,0 +1,48 @@
+{
+    "path": "00028252_kolakaposnews_fajar",
+    "selector": {
+        "date": {
+            "tag": "time",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ""
+        ],
+        "title": "h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".author.vcard"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".post-thumbnail.gmr-thumbnail-single > img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".entry-content.entry-content-single.clearfix"
+        ],
+        "categories": [
+            ".cat-links-content"
+        ],
+        "exceptions": [
+            ".gmr-related-post",
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [],
+            "selectors": []
+        }
+    },
+    "full_page": {
+        "page": "all"
+    }
+}

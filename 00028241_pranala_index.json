@@ -1,0 +1,26 @@
+{
+    "url": "https://pranala.co/",
+    "path": "00028241_pranala",
+    "selector": {
+        "url": {
+            "tag": "h4 a, h2 a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": "img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": "time"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": "h4 a, h2 a"
+        },
+        "container": ".news-list-item"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "url": "https://www.acehpost.id/",
+    "path": "00028239_acehpost",
+    "selector": {
+        "url": {
+            "tag": ".news-feed-text-block > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": "figure > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".tanggal"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": "h2"
+        },
+        "container": "#news-feed .news-feed-list"
+    }
+}

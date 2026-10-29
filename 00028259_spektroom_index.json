@@ -1,0 +1,26 @@
+{
+    "url": "https://spektroom.co.id/",
+    "path": "00028259_spektroom",
+    "selector": {
+        "url": {
+            "tag": ".gh-card-link",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".gh-card-image > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".gh-card-date"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": "h3"
+        },
+        "container": ".gh-main .gh-card.post"
+    }
+}

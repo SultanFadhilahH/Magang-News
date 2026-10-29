@@ -1,0 +1,52 @@
+{
+    "path": "00028257_bali_jpnn",
+    "selector": {
+        "date": {
+            "tag": ".date-publish",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ".tags"
+        ],
+        "title": "h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ""
+            ]
+        },
+        "images": [
+            {
+                "tag": ".page-content > img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".page-content"
+        ],
+        "categories": [
+            ""
+        ],
+        "exceptions": [
+            ".terkait",
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [
+                "Baca Juga:"
+            ],
+            "selectors": [
+                ".baca-juga"
+            ]
+        }
+    },
+    "full_page": {
+        "page": "all"
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "path": "00028244_tribratanews_reslangkat_sumut_polri",
+    "selector": {
+        "date": {
+            "tag": ".jeg_meta_date > a",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ""
+        ],
+        "title": "h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".meta_text > a"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".wp-block-image.size-full > img",
+                "attr": "srcset"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".content-inner p"
+        ],
+        "categories": [
+            ""
+        ],
+        "exceptions": [
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [],
+            "selectors": []
+        }
+    }
+}

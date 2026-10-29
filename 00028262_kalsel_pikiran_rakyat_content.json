@@ -1,0 +1,45 @@
+{
+    "path": "00028262_kalsel_pikiran_rakyat",
+    "selector": {
+        "date": {
+            "tag": ".date_detail",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ""
+        ],
+        "title": "h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".read__info__author"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".photo__img > img",
+                "attr": "data-src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".read__content.clearfix p"
+        ],
+        "categories": [
+            ""
+        ],
+        "exceptions": [
+            ".mgbox",
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [],
+            "selectors": []
+        }
+    }
+}

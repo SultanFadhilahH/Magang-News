@@ -1,0 +1,49 @@
+{
+    "path": "00028256_lintaskabar",
+    "selector": {
+        "date": {
+            "tag": ".timepost",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ".widget.tag-list"
+        ],
+        "title": "h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".author-name"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".image-box > a > picture > img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".post-article.notfull"
+        ],
+        "categories": [
+            ""
+        ],
+        "exceptions": [
+            ".widget.related",
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [
+                "Baca Juga:"
+            ],
+            "selectors": [
+                "strong"
+            ]
+        }
+    }
+}

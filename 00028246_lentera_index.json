@@ -1,0 +1,26 @@
+{
+    "url": "https://lentera.co/",
+    "path": "00028246_lentera",
+    "selector": {
+        "url": {
+            "tag": "h2 > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".banner-post-thumb-five > a > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".flaticon-calendar"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": "h2 > a"
+        },
+        "container": ".today-post-wrap .banner-post-five.banner-post-seven"
+    }
+}

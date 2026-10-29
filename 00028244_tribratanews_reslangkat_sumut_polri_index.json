@@ -1,0 +1,27 @@
+{
+    "url": "https://tribratanews.reslangkat.sumut.polri.go.id/",
+    "path": "00028244_tribratanews_reslangkat_sumut_polri",
+    "selector": {
+        "url": {
+            "tag": "h3 > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": "",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".jeg_meta_date"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": "h3 > a"
+        },
+        "container": ".jeg_posts.jeg_load_more_flag .jeg_postblock_content"
+    },
+    "tunnel_mode": "venom"
+}

@@ -1,0 +1,45 @@
+{
+    "path": "00028259_spektroom",
+    "selector": {
+        "date": {
+            "tag": "time",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ""
+        ],
+        "title": "h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".gh-article-author-name"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".gh-article-image > img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".gh-content.gh-canvas.is-body p"
+        ],
+        "categories": [
+            ".gh-article-tag"
+        ],
+        "exceptions": [
+            ".gh-container-inner.gh-inner",
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [],
+            "selectors": []
+        }
+    }
+}

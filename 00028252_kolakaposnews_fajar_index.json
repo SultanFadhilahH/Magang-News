@@ -1,0 +1,27 @@
+{
+    "url": "https://kolakaposnews.fajar.co.id/",
+    "path": "00028252_kolakaposnews_fajar",
+    "selector": {
+        "url": {
+            "tag": "h2 > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".post-thumbnail > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".clearfix.meta-content"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": "h2 > a"
+        },
+        "container": "#infinite-container #post-122243"
+    },
+    "tunnel_mode": "venom"
+}

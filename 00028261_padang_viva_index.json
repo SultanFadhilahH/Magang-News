@@ -1,0 +1,26 @@
+{
+    "url": "https://padang.viva.co.id/",
+    "path": "00028261_padang_viva",
+    "selector": {
+        "url": {
+            "tag": ".article-list-title",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".article-list-thumb.thumb-loading > a > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ""
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": "h2"
+        },
+        "container": ".article-list-container"
+    }
+}

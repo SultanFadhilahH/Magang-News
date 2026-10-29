@@ -1,0 +1,26 @@
+{
+    "url": "https://bandung.kompas.com/",
+    "path": "00028243_bandung_kompas",
+    "selector": {
+        "url": {
+            "tag": ".article-link",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".articleItem-img > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".articlePost-date"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": "h2"
+        },
+        "container": ".articleList.-list .articleItem"
+    }
+}

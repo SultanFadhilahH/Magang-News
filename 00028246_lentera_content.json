@@ -1,0 +1,45 @@
+{
+    "path": "00028246_lentera",
+    "selector": {
+        "date": {
+            "tag": ".blog-post-meta li, time",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ".post-tags"
+        ],
+        "title": "h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                "p[dir='ltr']"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".blog-details-thumb > figure > img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".p-content p"
+        ],
+        "categories": [
+            ".post-tag"
+        ],
+        "exceptions": [
+            ".post-item",
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [],
+            "selectors": []
+        }
+    }
+}

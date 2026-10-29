@@ -1,0 +1,49 @@
+{
+    "path": "00028250_pdiperjuangan_jatim",
+    "selector": {
+        "date": {
+            "tag": "time",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ".tag-article"
+        ],
+        "title": "h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".author-date"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".article-photo > a > img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".article-wrap p"
+        ],
+        "categories": [
+            ""
+        ],
+        "exceptions": [
+            ".box-index.mr-20",
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [
+                "Baca Juga"
+            ],
+            "selectors": [
+                ".article-content"
+            ]
+        }
+    }
+}

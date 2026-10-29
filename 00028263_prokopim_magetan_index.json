@@ -1,0 +1,26 @@
+{
+    "url": "https://prokopim.magetan.go.id/",
+    "path": "00028263_prokopim_magetan",
+    "selector": {
+        "url": {
+            "tag": "h2 > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".post-thumbnail > a > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": "time"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": "h2 > a"
+        },
+        "container": ".site-main #post-17567"
+    }
+}

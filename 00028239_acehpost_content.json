@@ -1,0 +1,48 @@
+{
+    "path": "00028239_acehpost",
+    "selector": {
+        "date": {
+            "tag": ".tanggal",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ""
+        ],
+        "title": "h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".writer-name"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".post-24305.post.type-post.status-publish.format-standard.has-post-thumbnail.hentry.category-ekbis > img",
+                "attr": "data-src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".single-article-text p"
+        ],
+        "categories": [
+            ""
+        ],
+        "exceptions": [
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [
+                "Baca Juga"
+            ],
+            "selectors": [
+                ".related-post-wrap"
+            ]
+        }
+    }
+}

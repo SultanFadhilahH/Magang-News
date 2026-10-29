@@ -1,0 +1,52 @@
+{
+    "path": "00028261_padang_viva",
+    "selector": {
+        "date": {
+            "tag": ".main-content-date",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ""
+        ],
+        "title": "h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".main-content-author"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".mci-frame > a > picture > img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".main-content-detail p"
+        ],
+        "categories": [
+            ""
+        ],
+        "exceptions": [
+            ".base-container.widget-berita-terkait",
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [
+                "Baca Juga"
+            ],
+            "selectors": [
+                ".recommended-article"
+            ]
+        }
+    },
+    "full_page": {
+        "page": "all"
+    }
+}

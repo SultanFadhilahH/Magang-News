@@ -1,0 +1,50 @@
+{
+    "path": "00028254_jateng_jpnn",
+    "selector": {
+        "date": {
+            "tag": ".date-publish",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ".tags"
+        ],
+        "title": "h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ""
+            ]
+        },
+        "images": [
+            {
+                "tag": ".page-content > img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".content-detail p",
+            "article p"
+        ],
+        "categories": [
+            ""
+        ],
+        "exceptions": [
+            "terkait",
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [
+                ".Baca Juga:"
+            ],
+            "selectors": [
+                ".baca-juga"
+            ]
+        }
+    }
+}
