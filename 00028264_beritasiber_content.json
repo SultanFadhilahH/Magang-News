@@ -1,0 +1,45 @@
+{
+    "path": "00028264_beritasiber",
+    "selector": {
+        "date": {
+            "tag": ".timepost",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ".widget.tag-list"
+        ],
+        "title": ".post-title > h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".author-name"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".post-featured img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".post-content p"
+        ],
+        "categories": [
+            ""
+        ],
+        "exceptions": [
+            ".widget related ",
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [],
+            "selectors": []
+        }
+    }
+}

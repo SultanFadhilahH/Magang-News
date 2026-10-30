@@ -1,0 +1,26 @@
+{
+    "url": "https://www.beritasiber.com/",
+    "path": "00028264_beritasiber",
+    "selector": {
+        "url": {
+            "tag": "h2 > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".terkini-image.media-image img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".terkini-date"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": ".terkini-title > h2"
+        },
+        "container": ".widget.terkini"
+    }
+}

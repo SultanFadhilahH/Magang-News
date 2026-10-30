@@ -1,0 +1,26 @@
+{
+    "url": "https://ecologic.harianjogja.com/",
+    "path": "00028258_ecologic_harianjogja",
+    "selector": {
+        "url": {
+            "tag": ".latest-news-link",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".latest-news-image img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".latest-news-date"
+            },
+            "category": {
+                "tag": ".latest-news-category"
+            }
+        },
+        "title": {
+            "tag": ".latest-news-title"
+        },
+        "container": ".latest-news-list .latest-news-item"
+    }
+}

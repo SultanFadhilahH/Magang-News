@@ -1,0 +1,26 @@
+{
+    "url": "https://makassar.kompas.com/",
+    "path": "00028242_makassar_kompas",
+    "selector": {
+        "url": {
+            "tag": ".articleItem > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".articleItem-wrap img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".articlePost-date"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": ".articleItem-box > h2"
+        },
+        "container": ".sectionBox.--line .articleItem"
+    }
+}

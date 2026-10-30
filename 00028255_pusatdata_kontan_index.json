@@ -1,0 +1,26 @@
+{
+    "url": "https://pusatdata.kontan.co.id/",
+    "path": "00028255_pusatdata_kontan",
+    "selector": {
+        "url": {
+            "tag": ".title-n > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": "img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".rub"
+            },
+            "category": {
+                "tag": ".rub > a"
+            }
+        },
+        "title": {
+            "tag": ".title-n > a"
+        },
+        "container": ".q-market-news.box-list-widget"
+    }
+}

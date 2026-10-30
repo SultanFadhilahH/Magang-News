@@ -1,0 +1,26 @@
+{
+    "url": "https://www.beritaandalas.com/",
+    "path": "00028265_beritaandalas",
+    "selector": {
+        "url": {
+            "tag": "h3 > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".td-module-thumb img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".meta-info time"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": ".item-details > h3"
+        },
+        "container": ".wpb_wrapper .td-block-span12"
+    }
+}

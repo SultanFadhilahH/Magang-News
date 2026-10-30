@@ -1,0 +1,27 @@
+{
+    "url": "https://diskominfomc.kalselprov.go.id/",
+    "path": "00028260_diskominfomc_kalselprov",
+    "selector": {
+        "url": {
+            "tag": ".entry-title a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": "figure img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".posted-on .entry-date"
+            },
+            "category": {
+                "tag": ".cat-links a"
+            }
+        },
+        "title": {
+            "tag": ".entry-title a"
+        },
+        "container": ".single-article"
+    },
+    "tunnel_mode": "venom"
+}

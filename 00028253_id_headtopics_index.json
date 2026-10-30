@@ -1,0 +1,26 @@
+{
+    "url": "https://id.headtopics.com/",
+    "path": "00028253_id_headtopics",
+    "selector": {
+        "url": {
+            "tag": "a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": "img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".meta > time"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": ".row-text > h3"
+        },
+        "container": "ul.rows li"
+    }
+}

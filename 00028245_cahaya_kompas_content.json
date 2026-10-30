@@ -1,0 +1,49 @@
+{
+    "path": "00028245_cahaya_kompas",
+    "selector": {
+        "date": {
+            "tag": ".read__time",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ""
+        ],
+        "title": ".col-bs10-10 h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".credit-title-name"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".photo__wrap > img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".read__content p"
+        ],
+        "categories": [
+            ""
+        ],
+        "exceptions": [
+            ".aTerkait",
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [
+                "Baca juga: "
+            ],
+            "selectors": [
+                "strong"
+            ]
+        }
+    }
+}

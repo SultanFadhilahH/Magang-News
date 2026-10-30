@@ -1,0 +1,46 @@
+{
+    "path": "00028240_trilokanews",
+    "selector": {
+        "date": {
+            "tag": ".date-header-item",
+            "attr": "",
+            "format": "MMMM dd, yyyy"
+        },
+        "tags": [
+            ""
+        ],
+        "title": ".post.hentry.uncustomized-post-template > .post-title.entry-title",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".fn"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".post-body.entry-content .separator > a > img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".post-body.entry-content"
+        ],
+        "categories": [
+            "#post-labels-bawah"
+        ],
+        "exceptions": [
+            ".related-posts2",
+            ".related-posts",
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [],
+            "selectors": []
+        }
+    }
+}

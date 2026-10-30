@@ -1,0 +1,50 @@
+{
+    "path": "00028255_pusatdata_kontan",
+    "selector": {
+        "date": {
+            "tag": ".txtright > .fs13",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ""
+        ],
+        "title": ".title_frank, .detail-desk",
+        "author": {
+            "pattern": {
+                "open": "Reporter: ",
+                "close": ""
+            },
+            "selectors": [
+                ".tmpt-desk-kon p em",
+                ".tmpt-desk-kon p b"
+            ]
+        },
+        "images": [
+            {
+                "tag": "",
+                "attr": ""
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".tmpt-desk-kon p"
+        ],
+        "categories": [
+            ".arrowsbread ol li a"
+        ],
+        "exceptions": [
+            ".bacajuga-inside",
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [
+                "Baca Juga: "
+            ],
+            "selectors": [
+                ".bacajuga-inside"
+            ]
+        }
+    }
+}

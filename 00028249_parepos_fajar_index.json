@@ -1,0 +1,27 @@
+{
+    "url": "https://parepos.fajar.co.id/",
+    "path": "00028249_parepos_fajar",
+    "selector": {
+        "url": {
+            "tag": "h2 > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".box-item img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".fa.fa-clock-o"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": ".box-content > h2"
+        },
+        "container": "#infinite-container #post-63723"
+    },
+    "tunnel_mode": "venom"
+}

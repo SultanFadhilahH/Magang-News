@@ -1,0 +1,45 @@
+{
+    "path": "00028265_beritaandalas",
+    "selector": {
+        "date": {
+            "tag": ".td-post-date",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ".td-post-source-tags.td-pb-padding-side"
+        ],
+        "title": ".td-post-header.td-pb-padding-side h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".td-post-author-name > a"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".td-post-featured-image img",
+                "attr": "data-src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".td-post-content.td-pb-padding-side > p"
+        ],
+        "categories": [
+            ""
+        ],
+        "exceptions": [
+            ".td_block_wrap.td_block_related_posts.td_uid_4_6ae3123dd9f27_rand.td_with_ajax_pagination.td-pb-border-top.td_block_template_1",
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [],
+            "selectors": []
+        }
+    }
+}

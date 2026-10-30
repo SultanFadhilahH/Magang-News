@@ -1,0 +1,46 @@
+{
+    "path": "00028260_diskominfomc_kalselprov",
+    "selector": {
+        "date": {
+            "tag": ".posted-on .entry-date",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ""
+        ],
+        "title": ".entry-title",
+        "author": {
+            "pattern": {
+                "open": "Diposkan Oleh:",
+                "close": ""
+            },
+            "selectors": [
+                ".url.fn.n"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".entry-content img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".entry-content p"
+        ],
+        "categories": [
+            ""
+        ],
+        "exceptions": [
+            ".related-post-wrapper",
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [],
+            "selectors": []
+        }
+    },
+    "tunnel_mode": "venom"
+}

@@ -1,0 +1,26 @@
+{
+    "url": "https://www.trilokanews.com/",
+    "path": "00028240_trilokanews",
+    "selector": {
+        "url": {
+            "tag": "h2 > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".post-thumbnail",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".date-header"
+            },
+            "category": {
+                "tag": ".post-labels"
+            }
+        },
+        "title": {
+            "tag": ".right-more > h2"
+        },
+        "container": ".widget.Blog .post-outer"
+    }
+}

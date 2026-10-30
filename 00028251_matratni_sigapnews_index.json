@@ -1,0 +1,26 @@
+{
+    "url": "https://matratni.sigapnews.co.id/",
+    "path": "00028251_matratni_sigapnews",
+    "selector": {
+        "url": {
+            "tag": "h3 > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".pic > a > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".date"
+            },
+            "category": {
+                "tag": ".iconskategori"
+            }
+        },
+        "title": {
+            "tag": ".text > h3"
+        },
+        "container": ".block_popular_posts > .article"
+    }
+}

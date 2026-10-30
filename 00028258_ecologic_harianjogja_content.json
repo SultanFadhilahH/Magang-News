@@ -1,0 +1,52 @@
+{
+    "path": "00028258_ecologic_harianjogja",
+    "selector": {
+        "date": {
+            "tag": ".author-details .publish-date",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ".article-tags .tag"
+        ],
+        "title": ".article-detail-title",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".author-name"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".article-detail-image img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".article-detail-content p"
+        ],
+        "categories": [
+            ".breadcrumb .current"
+        ],
+        "exceptions": [
+            ".baca-juga-section",
+            ".article-ad-slot",
+            ".cek-berita",
+            ".sumber",
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [
+                "BACA JUGA"
+            ],
+            "selectors": [
+                ".baca-juga-section"
+            ]
+        }
+    }
+}

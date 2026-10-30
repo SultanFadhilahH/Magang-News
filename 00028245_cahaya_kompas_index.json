@@ -1,0 +1,26 @@
+{
+    "url": "https://cahaya.kompas.com/",
+    "path": "00028245_cahaya_kompas",
+    "selector": {
+        "url": {
+            "tag": ".articleItem > a",
+            "prefix": ""
+        },
+        "meta": {
+            "img": {
+                "tag": ".articleItem-img > img",
+                "prefix": ""
+            },
+            "time": {
+                "tag": ".articlePost-date"
+            },
+            "category": {
+                "tag": ""
+            }
+        },
+        "title": {
+            "tag": ".articleItem-box > h2"
+        },
+        "container": ".articleList.-list > .articleItem"
+    }
+}

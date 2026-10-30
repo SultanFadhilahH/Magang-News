@@ -1,0 +1,43 @@
+{
+    "path": "00028251_matratni_sigapnews",
+    "selector": {
+        "date": {
+            "tag": ".date",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ""
+        ],
+        "title": ".block_single_news > h1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".detail_author"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".block_single_news > img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".contentberita p"
+        ],
+        "categories": [
+            ""
+        ],
+        "exceptions": [
+            ".mgbox"
+        ],
+        "article_link": {
+            "patterns": [],
+            "selectors": []
+        }
+    }
+}

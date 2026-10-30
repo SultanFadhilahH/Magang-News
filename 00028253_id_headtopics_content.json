@@ -1,0 +1,50 @@
+{
+    "path": "00028253_id_headtopics",
+    "selector": {
+        "date": {
+            "tag": ".byline time",
+            "attr": "",
+            "format": "dd/mm/yyyy"
+        },
+        "tags": [
+            ".tags .tag"
+        ],
+        "title": "#dh1",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".byline b"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".d-hero > img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            "#dbody p"
+        ],
+        "categories": [
+            ".kicker > a"
+        ],
+        "exceptions": [
+            ".also",
+            ".slot",
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [
+                "Also read"
+            ],
+            "selectors": [
+                ".also"
+            ]
+        }
+    }
+}

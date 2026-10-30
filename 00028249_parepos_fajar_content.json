@@ -1,0 +1,50 @@
+{
+    "path": "00028249_parepos_fajar",
+    "selector": {
+        "date": {
+            "tag": ".posted-on",
+            "attr": "",
+            "format": "dd MMMM yyyy"
+        },
+        "tags": [
+            ""
+        ],
+        "title": ".entry-header.entry-header-single .entry-title",
+        "author": {
+            "pattern": {
+                "open": "",
+                "close": ""
+            },
+            "selectors": [
+                ".author.vcard"
+            ]
+        },
+        "images": [
+            {
+                "tag": ".post-thumbnail.gmr-thumbnail-single > img",
+                "attr": "src"
+            }
+        ],
+        "videos": [],
+        "contents": [
+            ".entry-content.entry-content-single.clearfix > p"
+        ],
+        "categories": [
+            ".cat-links-content"
+        ],
+        "exceptions": [
+            ".gmr-related-post",
+            "style",
+            "script"
+        ],
+        "article_link": {
+            "patterns": [
+                "Baca Juga: "
+            ],
+            "selectors": [
+                ".entry-content.entry-content-single.clearfix span"
+            ]
+        }
+    },
+    "tunnel_mode": "venom"
+}
